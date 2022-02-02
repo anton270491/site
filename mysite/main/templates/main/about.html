@@ -1,0 +1,22 @@
+{% extends 'main/layout.html'%}
+
+{% block title%}О себе{% endblock %}
+
+{% block content%}
+
+    <div class="features">
+        <h1>О себе</h1>
+        <p>  Резюме  </p>
+        <object type="application/pdf"
+            data="/static/main/resume.pdf"
+            width="900"
+            height="800">
+        </object>
+    </div>
+
+
+
+
+{% endblock %}
+
+{% load static %}
